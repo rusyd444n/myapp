@@ -11,10 +11,10 @@ class LatihanDua extends StatelessWidget {
           Container(
             child: Center(
               child: Text(
-                'british song',
+                'SELAMAT DATANG',
                 style: TextStyle(
                   fontSize: 30,
-                  fontWeight: FontWeight.normal,
+                  fontWeight: FontWeight.bold,
                   color: Colors.black,
                 ),
               ),
@@ -33,11 +33,11 @@ class LatihanDua extends StatelessWidget {
               children: [
                 Center(
                   child: Image.network(
-                      'https://th.bing.com/th/id/OIP.x-T6v-Ml7MhcZhJ5S9wzdwAAAA?rs=1&pid=ImgDetMain'),
+                      'https://m.media-amazon.com/images/I/51GgtdPiQrL._SX300_SY300_QL70_FMwebp_.jpg'),
                 ),
                 Center(
                   child: Image.network(
-                      'https://th.bing.com/th/id/OIP.x-T6v-Ml7MhcZhJ5S9wzdwAAAA?rs=1&pid=ImgDetMain'),
+                      'https://m.media-amazon.com/images/I/51GgtdPiQrL._SX300_SY300_QL70_FMwebp_.jpg'),
                 ),
               ],
             ),
