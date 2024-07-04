@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/container_widget.dart';
+import 'package:myapp/listview/list_basic.dart';
+import 'package:myapp/listview/list_builder.dart';
+import 'package:myapp/listview/list_example.dart';
+import 'package:myapp/listview/list_sparated.dart';
 import 'package:myapp/row_column/latihan_dua.dart';
 import 'package:myapp/row_column/latihan_row_column.dart';
 import 'package:myapp/row_column/row_widget.dart';
@@ -21,7 +25,7 @@ class MyApp extends StatelessWidget {
         centerTitle: true,
            title: Text("belajar flutter"),
       ),
-      body: LatihanDua()
+      body: ListExample()
       ),
     );
   }
